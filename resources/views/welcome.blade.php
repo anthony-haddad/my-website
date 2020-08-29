@@ -31,7 +31,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    MY WEBSITE
+                    Anthony Haddad
                 </div>
 
                 <div class="links">
