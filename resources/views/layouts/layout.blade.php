@@ -7,20 +7,17 @@
 
     <title>Anthony Haddad</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     {{-- Styles --}}
     <link rel="stylesheet" href="{{ asset("css/app.css") }}">
+
+    {{-- Icons --}}
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/line.css">
 
 </head>
 
 <body>
-    <div class="flex-center position-ref full-height">
-        
-
+    <div>
         @yield("content")
-
     </div>
 </body>
 
