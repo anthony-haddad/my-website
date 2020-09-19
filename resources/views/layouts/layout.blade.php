@@ -16,9 +16,13 @@
 </head>
 
 <body>
-    <div>
-        @yield("content")
-    </div>
+    <main class="flex flex-col h-screen">
+        <x-header></x-header>
+        <div class="flex-auto">
+            @yield("content")
+        </div>
+        <x-footer></x-footer>
+    </main>
 </body>
 
 </html>
