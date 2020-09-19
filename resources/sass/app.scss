@@ -1,5 +1,9 @@
 @import "./fonts/montserrat.scss";
 @import "./fonts/montserrat-alternates.scss";
+
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
+
 @tailwind utilities;
