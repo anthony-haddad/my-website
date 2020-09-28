@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <main class="flex flex-col h-screen">
+    <main class="flex flex-col h-screen w-full">
         <x-header></x-header>
         <div class="flex-auto">
             @yield("content")
