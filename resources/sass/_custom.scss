@@ -1,0 +1,14 @@
+.header-underline {
+    position: relative;
+    display: inline-block;
+    &::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 40px;
+        margin-top: 2px;
+        background: #c3073f;
+        position: absolute;
+        right: 0;
+    }
+}
